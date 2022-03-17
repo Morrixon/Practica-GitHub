@@ -6,13 +6,66 @@
 
 /*Color de los parrafos*/
 
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color:#F4EBEB;
+}
+
+ ul ,li, a {
+    text-decoration: none;
+    color: inherit;
+list-style: none;
+}
+
+main {
+    background-color:pink;
+}
+
 h1 , h2 ,h3, h4 , p, a {
     color:black;
     font-family: 'Lato', sans-serif;
 }
 
 
-a, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+nav
+{
+    background-color:pink;
+    padding:0;
+    margin:0;
+    
 }
+
+.navbar-nav > li{
+    padding-left:2px;
+    padding-right:2px;
+  }
+
+nav ul li {
+    padding-left: 0.8em;
+    font-size: large;
+}
+
+
+footer {
+    margin-top: 20px;
+     text-align:center;
+      background-color:#edcfc3;
+    }
+
+
+    @-webkit-keyframes rotate {
+        from { -webkit-transform: rotate(0deg) }
+        to { -webkit-transform: rotate(360deg) } 
+        
+    }
+    
+    .logo {
+        padding-top: 6px;
+    display: inline-block;
+    animation:rotate 2s  infinite;
+    animation-timing-function: cubic-bezier(0,0,.0,0);
+    }
