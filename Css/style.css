@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+html , body {
+    font-family:'Lato', sans-serif;
+ color:black;
+}
+
 /*Color de los parrafos*/
 
 a, a:focus, a:active {
@@ -24,12 +29,6 @@ list-style: none;
 main {
     background-color:pink;
 }
-
-h1 , h2 ,h3, h4 , p, a {
-    color:black;
-    font-family: 'Lato', sans-serif;
-}
-
 
 nav
 {
@@ -69,3 +68,5 @@ footer {
     animation:rotate 2s  infinite;
     animation-timing-function: cubic-bezier(0,0,.0,0);
     }
+
+    
