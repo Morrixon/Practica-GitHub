@@ -5,7 +5,7 @@
 }
 
 html , body {
-    font-family:'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
  color:black;
 }
 
@@ -32,7 +32,7 @@ main {
 
 nav
 {
-    background-color:pink;
+    background-color:#458882;
     padding:0;
     margin:0;
     
@@ -48,13 +48,55 @@ nav ul li {
     font-size: 1.3rem;
 }
 
+.titulo {
+    padding-top: 1rem;
+}
+
+/* <!-- CAROUSEL --> */
+
+
+.carousel-title {
+    font-size: 3rem;
+    color: pink;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: black;
+}
+
+
+/* <!-- SOCIAL MEDIA --> */
+.social  a {
+    font-size: 2.5rem;
+padding: 2rem;
+}
+
+.fa-facebook {
+    color:#3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color:#517fa4;
+}
+.fa-facebook:hover ,.fa-instagram:hover,.fa-twitter:hover {
+    color: #d5d5d5;
+}
 
 footer {
-    margin-top: 20px;
+    color: #d5d5d5;
+    padding-top: 2rem;
      text-align:center;
-      background-color:#edcfc3;
+      background-color:#458882;
+      
     }
+hr  {
+     border-top: 2px solid;
+     color: #d5d5d5;
+     
 
+}
 
     @-webkit-keyframes rotate {
         from { -webkit-transform: rotate(0deg) }
